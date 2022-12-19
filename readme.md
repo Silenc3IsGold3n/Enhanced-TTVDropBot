@@ -109,7 +109,7 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
 1. Get the bot started
 
     ```bash
-    docker run --rm -it ghcr.io/pockysweet/ttvdropbot/ttvdropbot:latest node ./build/index.js --displayless
+    docker run --rm -it ghcr.io/silenc3isgold3n/ttvdropbot:latest node ./build/index.js --displayless
     ```
 
 2. Get your token and then exit the bot with `Ctrl + C`
@@ -129,7 +129,7 @@ Twitch has recently updated their drop claiming system, now including anti-bot d
     -e ttvdropbot_games="Sea_of_Thieves Rust Lost_Ark No_Man's_Sky" \
     -e ttvdropbot_autoclaim=true \
     -e ttvdropbot_autopoints=false \
-    ghcr.io/PockySweet/ttvdropbot/ttvdropbot:latest
+    ghcr.io/silenc3isgold3n/ttvdropbot:latest
     ```
 ------------
 
@@ -141,7 +141,7 @@ Learn how to install it [here](https://github.com/git-guides/install-git)
 1. Open a terminal (CMD, PowerShell, Shell) <br>
 1.5 Clone the **[Repository](https://github.com/PockySweet/Enhanced-TTVDropBot)** using the following command.
     ```bash
-    git clone https://github.com/PockySweet/Enhanced-TTVDropBot
+    git clone https://github.com/Silenc3IsGold3n/Enhanced-TTVDropBot
     ```
 
 2. Install NPM packages.
